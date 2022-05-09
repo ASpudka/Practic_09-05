@@ -1,0 +1,43 @@
+.cards-conteiner{
+
+}
+
+.container-title{
+
+}
+
+.card-wrapper{
+  --img-size: 100px;
+  width: calc(4*var(--img-size));
+  border: 1px solid teal;
+}
+.card-dg-heder{
+
+}
+.card-content{
+
+}
+
+.photo-wrapper{
+
+}
+
+.photo{
+  width:var(--img-size);
+}
+
+.full-name-user{
+
+}
+
+.map-marcer{
+
+}
+
+.btn-wrapper{
+
+}
+
+.btn{
+
+}
