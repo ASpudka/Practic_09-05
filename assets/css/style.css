@@ -7,15 +7,21 @@
 }
 
 .card-wrapper{
-  --img-size: 100px;
+  --img-size: 50px;
+
   width: calc(4*var(--img-size));
   border: 1px solid teal;
+   background-color: teal; 
+  text-align: center;
 }
 .card-dg-heder{
+  height: calc(2*var(--img-size));
+  border: 1px solid teal;
+  background-color: wheat;
 
 }
 .card-content{
-
+margin-top: calc(1*var(--img-size));
 }
 
 .photo-wrapper{
@@ -23,7 +29,15 @@
 }
 
 .photo{
+  box-sizing: border-box;
   width:var(--img-size);
+  height: var(--img-size);
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 50%;
+  background-color: white;
+  object-fit: cover;
+  object-position: top;
 }
 
 .full-name-user{
@@ -40,4 +54,6 @@
 
 .btn{
 
+}
+.card-footer{
 }
