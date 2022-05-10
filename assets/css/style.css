@@ -1,5 +1,7 @@
 .cards-conteiner{
-
+--main-color: #17a2b8;
+font-family: sens-serif;
+text-align: center;
 }
 
 .container-title{
@@ -9,18 +11,25 @@
 .card-wrapper{
   --img-size: 50px;
 
-  width: calc(4*var(--img-size));
+  display: inline-block;
+
+  min-width: calc(3*var(--img-size));
+  width: 100%;
+  max-width: calc(4*var(--img-size)) ;
   border: 1px solid teal;
-   background-color: teal; 
+   /* background-color: teal;  */
+   margin: 10%;
   text-align: center;
 }
-.card-dg-heder{
+.card-bg-heder{
   height: calc(2*var(--img-size));
   border: 1px solid teal;
-  background-color: wheat;
+  background-color: var(--main-color);
 
 }
 .card-content{
+  padding-left: 5%;
+  padding-right: 5%;
 margin-top: calc(1*var(--img-size));
 }
 
@@ -53,7 +62,20 @@ margin-top: calc(1*var(--img-size));
 }
 
 .btn{
-
+max-width: 40%;
 }
 .card-footer{
+  background-color: var(--main-color);
+
+}
+.social-icon{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.twitter{
+  background-image: url(./images/icons/twitter.png);
 }
